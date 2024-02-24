@@ -14,16 +14,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have the 'angular-devru' title`, () => {
+  it(`should have the 'dynamic-component-loader' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('angular-devru');
+    expect(app.title).toEqual('dynamic-component-loader');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, angular-devru');
+    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, dynamic-component-loader');
   });
 });

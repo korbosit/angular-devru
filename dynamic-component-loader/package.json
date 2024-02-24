@@ -1,5 +1,5 @@
 {
-  "name": "angular-devru",
+  "name": "dynamic-component-loader",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:angular-devru": "node dist/angular-devru/server/server.mjs"
+    "serve:ssr:dynamic-component-loader": "node dist/dynamic-component-loader/server/server.mjs"
   },
   "private": true,
   "dependencies": {
